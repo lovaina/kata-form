@@ -10,6 +10,7 @@ Campos:
 - Usuario
 - Contraseña
 - Validar contraseña
+- Email
 - Fecha de nacimiento
 - Dirección
 - CP
