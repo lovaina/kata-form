@@ -2,34 +2,97 @@
 <html>
 <head>
 	<title>Formulario de registro</title>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-<h1>Formulario de registro</h1>
+<div class="container">
+<div class="row">
+	<h1>Formulario de registro</h1>
 
-<form action="" method="post">
-	Nombre:
-	<input type="text" id=""><br>
-	Apellidos: 
-	<input type="text" id=""><br>
-	Usuario:
-	<input type="text" id=""><br>
-	Password:
-	<input type="password" id=""><br>
-	Repite password:
-	<input type="password" id=""><br>
-	Email:
-	<input type="email" name="" id=""><br>
-	Fecha de nacimiento:
-	<input type="date" name="" id=""><br>
-	Dirección:
-	<textarea name="" id="" cols="30" rows="10"></textarea><br>
-	CP:
-	<input type="text" name="" id=""><br>
-	Foto de perfil:
-	<input type="file" name="" id="" accept="image/*"><br>
-	<input type="submit" value="Guardar">
+	<form action="#" method="post">
+
+		<div class="row">
+			<div class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<label for="user">Usuario</label>
+						<input type="text" id="user" name="user">
+					</div>
+					<div class="input-field col s6">
+						<label for="password">Password</label>
+						<input type="password" id="" name="password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s6">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email"><br>
+					</div>
+					<div class="input-field col s6">
+						<label for="repeat_password">Repite Password</label>
+						<input type="password" id="" name="password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<label for="name">Nombre</label>
+						<input type="text" id="name" name="name"><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<label for="surname">Apellidos</label>
+						<input type="text" id="surname" name="surname"><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<label for="birthday">Fecha de nacimiento</label>
+						<input type="date" name="birthday" id="birthday" class="datepicker">
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<label for="address">Dirección</label>
+						<textarea name="address" id="address" class="materialize-textarea"></textarea><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<label for="cp">CP</label>
+						<input type="text" name="cp" id="cp">
+					</div>
+				</div>
+				<div class="row">
+					<div class="file-field col s12">
+						<div class="btn">
+							<span>Foto de perfil</span>
+							<input type="file" name="avatar" id="avatar" accept="image/*">	
+						</div>
+						<div class="file-path-wrapper">
+					    	<input class="file-path validate" type="text">
+						</div>
+
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+		
+		<button class="btn aves-effect waves-light right" type="submit">Guardar</button>
+		
+	</form>
 	
-</form>
+</div>
+<div class="row">
+	<p>By Mei</p>
+</div>
+    
+</div>
+
 
 
 </body>
