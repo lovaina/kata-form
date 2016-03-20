@@ -44,3 +44,8 @@ HTML
 CSS
 	(http://getbootstrap.com/)
 	(http://materializecss.com/)
+
+##Recomendaciones
+- Instalar: (https://git-scm.com/download/win)
+- Instalar Emmet en el editor. Esto un plugin que escribiendo poco escribe mucho (http://docs.emmet.io/cheat-sheet/)
+- Utilizar GIT Bash para comandos de git
